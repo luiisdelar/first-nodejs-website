@@ -1,0 +1,40 @@
+body {
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    min-height: 100vh;
+    font-family: 'Spicy Rice', cursive;
+}
+
+.container.home img {
+    max-width: 600px;
+    max-height: 500px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.card {
+    border: none;
+}
+
+@media (max-width: 600px){
+    .container.home img {
+        max-width: 100%;
+        max-height: 100%;
+    }  
+ 
+}
+
+#about p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+} 
+
+footer p {
+    margin-bottom: 0 !important;
+}

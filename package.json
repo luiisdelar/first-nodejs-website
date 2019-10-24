@@ -13,7 +13,8 @@
   "dependencies": {
     "ejs": "^2.7.1",
     "express": "^4.17.1",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "now": "^16.4.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
